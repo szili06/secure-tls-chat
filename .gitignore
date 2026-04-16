@@ -6,3 +6,7 @@ __pycache__/
 # Security Keys and Certificates
 server.key
 server.crt
+
+.idea/
+cmake-build-*/
+build/
