@@ -1,0 +1,8 @@
+client
+
+__pycache__/
+*.pyc
+
+# Security Keys and Certificates
+server.key
+server.crt
