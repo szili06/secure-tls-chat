@@ -41,8 +41,8 @@ python3 server_core.py
 Compile the client using GCC, ensuring you link the OpenSSL libraries:
 
 ```bash
-gcc -o ChatApp network.c chat_io.c test.c -lssl -lcrypto
-./ChatApp
+gcc -o client network.c chat_io.c test.c -lssl -lcrypto
+./client
 ```
 
 ## How It Works
